@@ -8,10 +8,6 @@ on:
 
       - master
 
-    paths:
-
-      - "Dockerfile"
-
     tags:
 
       - v*
