@@ -1,0 +1,12 @@
+version: "3"
+services:
+  metube:
+    build: .
+    container_name: ytdlp-webui-go
+    restart: unless-stopped
+    ports:
+      - "3033:3033"
+    volumes:
+      - /home/amirulandalib/Downloads/ytdlp:/downloads
+    environment:
+      - TZ=Asia/Dhaka
