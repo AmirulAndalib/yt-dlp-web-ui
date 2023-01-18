@@ -12,7 +12,7 @@ WORKDIR /usr/src/yt-dlp-webui
 RUN apk update
 RUN apk add curl wget psmisc \
     ffmpeg nodejs npm \
-    go yt-dlp
+    go yt-dlp tzdata
 
 # copy srcs
 COPY . .
