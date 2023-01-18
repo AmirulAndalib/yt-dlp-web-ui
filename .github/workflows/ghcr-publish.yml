@@ -36,7 +36,7 @@ jobs:
 
       - name: Login to ghcr.io registry
 
-        run: docker login https://ghcr.io -u token -p ${{ secrets.GITHUB_TOKEN }}
+        run: docker login https://ghcr.io -u token -p ${{ secrets.GH_TOKEN }}
 
       - if: startsWith(github.ref, 'refs/heads/master')
 
