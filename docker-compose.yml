@@ -7,6 +7,6 @@ services:
     ports:
       - "3033:3033"
     volumes:
-      - /home/amirulandalib/Downloads/ytdlp:/downloads
+      - "/home/amirulandalib/Downloads/ytdlp:/downloads"
     environment:
       - TZ=Asia/Dhaka
