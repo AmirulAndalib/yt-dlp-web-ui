@@ -1,7 +1,7 @@
 version: "3"
 services:
   metube:
-    build: .
+    image: ghcr.io/amirulandalib/yt-dlp-web-ui:latest
     container_name: ytdlp-webui-go
     restart: unless-stopped
     ports:
